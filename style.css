@@ -1,0 +1,37 @@
+div{
+    font-family: Quicksand-Light;
+    opacity: 0.6;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+#button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(7, 174, 129);
+    text-align-last: center;
+    padding-top: 14px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+#button:hover{
+    opacity: 1;
+}
+
+a{
+    margin: 50px;
+    
+}
+
+#center-button{
+    margin-left: 50%;
+}
+
+
+@font-face {
+    font-family: "Quicksand-Light";
+    src: url(tables\ info/fonts/Quicksand-Light.ttf);
+}
